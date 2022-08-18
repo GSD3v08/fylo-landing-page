@@ -1,0 +1,565 @@
+:root{
+ /* Primary */
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+/* Accent */
+
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+
+/* Neutral */
+
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+
+}
+
+h2,
+h3,
+nav,
+button{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 90%;  
+}
+
+a{
+    text-decoration: none; 
+}
+
+img{
+    max-width: 100%;
+}
+
+.dark-blue{
+    color: var(--very-dark-blue);
+}
+
+.logo{
+    height: 1.7rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.nav-link{
+    margin-right: 1rem;
+}
+.nav-links li{
+    list-style: none;
+    font-size: .85rem;
+}
+
+.content{
+    text-align: center;
+}
+
+.feature-img{
+    margin-bottom: 2rem;
+}
+
+
+.feature-title{
+    line-height: 2rem;
+    color: var(--very-dark-blue);
+}
+
+.description{
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.signup-box,
+.access-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+}
+
+.email-input{
+    padding: .5rem 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.email-input::placeholder{
+    font-size: .8rem;
+    color: var(--light-gray);
+}
+
+.signup-button{
+    padding: .7rem;
+    border-style: none;
+
+    font-size: .85rem;
+    font-weight: 700;
+
+    color: white;
+    background-color: var(--bright-blue);
+
+    border-radius: .2rem;
+    box-shadow: 3px 3px 2px 1px rgba(156, 156, 156, 0.2);
+}
+
+.feature-1{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+}
+
+.feature-2{
+    background-color: #F8F8FE;
+    padding: 3rem 1.5rem;
+    
+}
+
+.background{
+    background-image: url(../assets/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3rem;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+}
+
+.profile-img{
+    height: 1.5rem;
+    border-radius: 1rem;
+    margin-right: .5rem;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name{
+    font-size: .6rem;
+    line-height: .75rem;
+
+    font-weight: 700;
+}
+
+.profile-type{
+    font-size: .5rem;
+    line-height: .75rem;
+}
+
+.title-2{
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-img-2{
+    margin-bottom: 5rem;
+}
+
+.description{
+    color: var(--desaturated-blue);
+    margin-bottom: 2rem;
+}
+
+.fylo-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.fly-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 1.65rem; */
+    border-bottom: 1px solid var(--moderate-cyan);
+}
+
+.fylo-text{
+    font-size: .9rem;
+    margin-right: .25rem;  
+    color: var(--moderate-cyan);
+}
+
+.fylo-text:active{
+    color: var(--moderate-cyan);
+}
+
+.arrow{
+    position: relative;;
+    left: .25rem;
+}
+
+.card-review{
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    
+    line-height: 1.2rem;
+    text-align: left;
+    font-size: .68rem;
+    
+    box-shadow: 0 0 .7rem rgb(223, 223, 223);
+}
+
+.review{
+    margin-top: 0;
+}
+
+.signup-container{
+    padding: 2.5rem;
+    background-color: var(--desaturated-blue);
+    color: white;
+}
+
+.signup-title{
+    font-size: 1.15rem;
+}
+
+.signup-description{
+    margin-bottom: 1.5rem;
+    font-size: .85rem;
+    line-height: 1.25rem;
+}
+
+.type-2{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.email-input-2{
+    padding: 0.25rem .5rem;
+    margin-bottom: .35rem;
+}
+
+.email-input-2::placeholder{
+    font-size: .65rem;
+    color: var(--light-gray);
+}
+
+.signup-button-2{
+    padding: .5rem;
+    border-style: none;
+
+    font-size: .7rem;
+    font-weight: 700;
+
+    color: white;
+    background-color: var(--bright-blue);
+}
+
+.signup-button-2:hover{
+    cursor: pointer;
+}
+
+footer{
+    /* padding: 3rem 2rem; */
+    background-color: var(--very-dark-blue);
+    color: var(--light-gray);
+}
+
+.footer-container{
+    padding: 3rem 2rem;
+}
+
+.footer-logo{
+    filter: invert(100%) saturate(0%)brightness(400%) ;
+    margin-bottom: 1.5rem;
+}
+
+.footer-content{
+    display: grid;
+    row-gap: 3rem;
+}
+
+
+.fylo-info{
+    display: grid;
+    grid-template-rows: max-content auto;
+    row-gap: 1rem;
+}
+
+.fylo-data{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1rem;
+}
+
+.footer-links{
+    display: grid;
+    row-gap: 3rem;
+}
+
+.links{
+    display: grid;
+    row-gap: 1rem;
+    font-size: .9rem;
+}
+
+.links a{
+    color: var(--light-gray);
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: inline-block;
+    font-size: .75rem;
+    padding: .5em;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+}
+
+@media (min-width: 376px){
+    .background{
+        background-image: url(../assets/images/bg-curve-desktop.svg);
+        background-size: cover;
+    }
+}
+
+/* Mobile */
+@media (min-width: 1000px){
+    header,
+    .content,
+    footer{
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    header{
+        margin-top: 2rem;
+    }
+
+    .logo{
+        height: 2.2rem;
+    }
+
+    .footer-container{
+        /* padding: 6rem 2rem 4rem; */
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature-1,
+    .feature-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        text-align: left;
+        max-width: 90%;
+    }
+
+    .feature-box{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature-2{
+        padding-bottom: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description{
+        margin-bottom: 1rem;
+    }
+
+    .background{
+        background-image: url(../assets/images/bg-curve-desktop.svg);
+        /* max-width: 90%; */
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        height: 7.125rem;
+    }
+
+    .feature-content{
+        grid-row: 1;
+    }
+    
+    .feature-img{
+        margin-bottom: 0;
+    }
+
+    .feature-img-2{
+        max-width: 90%;
+        margin-bottom: 0;
+    }
+
+    .feature-title,
+    .title-2{
+        line-height: 3.5rem;
+        font-size: 2.2rem;
+    }
+
+    .signup-box{
+        flex-direction: row;
+    }
+
+    .signup-box,
+    .access-form{
+        margin: 0;
+    }
+
+    .email-input{
+        width: 55%;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .signup-button{
+        width: 30%;
+
+    }
+
+    .signup-button:hover{
+        cursor: pointer;
+    }
+
+    .signup-button:active{
+        background-color: hsl(224, 93%, 64%);
+    }
+
+    .fylo-button{
+        justify-content: flex-start;
+        width: 30%;
+    }
+
+    .fylo-button:active{
+        opacity: .75;
+    }
+
+    .card-review{
+        width: 40%;
+        margin: 0;
+    }
+
+    .signup-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 7rem;
+
+        text-align: left;
+    }
+
+    .access-info{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .signup-title{
+        font-size: 2rem;
+    }
+
+    .signup-description{
+        font-size: .95rem;
+    }
+    
+    .access-form{
+        justify-content: center;
+        
+    }
+
+    .signup-button-2{
+        padding: 1rem .2rem;
+        max-width: 42%;
+
+        text-align: center;
+
+        font-size: .8rem;
+        font-weight: 700;
+
+        box-shadow: .1rem .1rem .5rem rgba(19, 18, 18, 0.25);
+    }
+
+    /* EDIT HERE */
+    .signup-button-2:active{
+        background-color: hsla(224, 58%, 62%);
+    }
+
+    .email-input-2{
+        width: 85%;
+        padding: 0.85rem 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .email-input-2::placeholder{
+        font-size: .75rem;
+    }
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* column-gap: 5rem; */
+    }
+
+    .footer-links{
+        grid-template-columns: 1fr 1fr;
+        /* column-gap: 5rem; */
+    }
+
+    .links{
+        grid-template-rows: repeat(3,max-content);
+    }
+
+    a:active{
+        color: hsl(224, 58%, 60%);
+    }
+
+    .social-links{
+        margin: 0;
+    }
+
+    .container:hover{
+        cursor: pointer;
+    }
+
+    .container:active{
+        color: hsl(224, 58%, 60%);
+        border-color: hsl(224, 58%, 60%);
+    }
+
+}
+
